@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="icon" href="src/icon.ico">
+    <title>Simple calc on JavaSctipt</title>
+</head>
+<body>
+    <div class="container">
+        <form class="form_container" id="calc">
+            <div class="calc_input_what_container">
+                <h1 class="calc_label">Calculator JS</h1>
+                <input class="calc_input calc_input_what" type="text" placeholder="+, -, /, *" id="calcWhat">
+            </div>
+            <div class="calt_input_container">
+                <input class="calc_input calc_input_numbers" type="number" placeholder="Enter A" id="calcA" required> 
+                <input class="calc_input calc_input_numbers" type="number" placeholder="Enter B" id="calcB" required>
+                <button class="calc_input calc_input_button" type="button" onclick="func()">Click</button>
+            </div>
+            <div class="calt_result_container">
+                <div class="calc_input calcRes"></div>
+            </div>
+        </form>
+        <div class="credits_container">
+            <a class="credits" href="https://www.thesolin.ru/">Coded by Solin4035</a>
+        </div>
+    </div>
+
+    <script src="js/calc.js"></script>
+</body>
+</html>

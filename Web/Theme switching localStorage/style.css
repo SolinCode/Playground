@@ -1,0 +1,46 @@
+.dark {
+    background-color: gray;
+}
+
+.light {
+    background-color: rgb(243, 220, 220);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container_inner {
+    position: absolute;
+    top: 50%;
+    margin-top: -55px;
+}
+
+.btn {
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 20px 40px;
+    font-size: 25px;
+    margin: 20px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.text {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.container_inner_copyright{
+    position: absolute;
+    bottom: 35px;
+}
