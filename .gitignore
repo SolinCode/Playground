@@ -1,1 +1,2 @@
-folder/**
+/folder/*
+/folder/folder2
